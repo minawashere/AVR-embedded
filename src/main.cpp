@@ -2,6 +2,6 @@
 #include "../include/millis.h"
 
 int main() {
-
+    millis_init();
 
 }
