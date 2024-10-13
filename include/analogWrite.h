@@ -1,8 +1,6 @@
-//
-// Created by lolo on 10/3/24.
-//
-#pragma once ANALOG
+#pragma once
 #include <avr/io.h>
 
+void PWM_init(void);
 void PWM_write(int dutyCycle);
 

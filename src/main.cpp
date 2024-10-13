@@ -3,5 +3,5 @@
 
 int main() {
     millis_init();
-
+    PWM_init();
 }
